@@ -13,5 +13,11 @@
 # n={i:"positive" if i>0 else "negavite" if i<0 else "zero" for i in n} 
 # print (n)
 
+a=[[1,2],[3,4],[5,6]]
+n= []
+for i in a:
+    for j in i:
+        n.append(j)
+print(n)
 
 
